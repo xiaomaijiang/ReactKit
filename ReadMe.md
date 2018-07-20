@@ -36,4 +36,4 @@ src/routes:存放路由配置
 
 src/store:存放redux的Store配置，一般不需要改
 
-src/store:工具类
+src/util:工具类
