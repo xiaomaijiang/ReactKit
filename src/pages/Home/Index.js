@@ -12,6 +12,7 @@ export default class extends Component {
     }
 
     load() {
+
         this.props.sampleAction.load();
     }
 

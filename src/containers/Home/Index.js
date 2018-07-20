@@ -8,7 +8,7 @@ const mapStateToProps = (state) => {
 };
 const mapDispatchToProps = (dispatch) => {
     return {
-        sampleAction: bindActionCreators(sampleAction, dispatch)
+        sampleAction: bindActionCreators(sampleAction.default, dispatch)
     }
 };
 export default connect(mapStateToProps, mapDispatchToProps)(Index);

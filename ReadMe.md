@@ -24,6 +24,8 @@ src/actions:存放redux的action
 
 src/components:存放基础组件,按照组件类别块划分存放目录
 
+src/pages:存放页面
+
 src/constants:存放action的type名字，和一些其他固定的常量
 
 src/containers:存放容器，需要绑定Redux的都需要在此处创建容器，路由上的组件需要指向这个文件夹的容器
